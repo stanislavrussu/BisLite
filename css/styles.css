@@ -1370,3 +1370,25 @@ body {
     margin-right: 18px;
   }
 }
+
+@media only screen and (max-width: 479px) {
+  .container {
+    min-width: 320px;
+  }
+  .carousel .item p {
+    line-height: 27px;
+    font-size: 22px;
+  }
+  .news article h2 {
+    width: 60%;
+  }
+  .images {
+    width: 20%;
+  }
+  .maps {
+    width: 100%;
+  }
+  #map {
+    width: auto !important;
+  }
+}
